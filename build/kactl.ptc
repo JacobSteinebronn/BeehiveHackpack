@@ -169,21 +169,22 @@
 \contentsline {subsection}{\texttt {PolygonArea.h}\hspace {0.2em}}{16}{lstnumber.8.18.11}%
 \contentsline {subsection}{\texttt {PolygonCenter.h}\hspace {0.2em}}{17}{lstnumber.8.19.6}%
 \contentsline {subsection}{\texttt {PolygonCut.h}\hspace {0.2em}}{17}{lstnumber.8.20.9}%
-\contentsline {subsection}{\texttt {ConvexHull.h}\hspace {0.2em}}{17}{lstnumber.8.21.13}%
-\contentsline {subsection}{\texttt {HullDiameter.h}\hspace {0.2em}}{17}{lstnumber.8.22.13}%
-\contentsline {subsection}{\texttt {PointInsideHull.h}\hspace {0.2em}}{17}{lstnumber.8.23.12}%
-\contentsline {subsection}{\texttt {LineHullIntersection.h}\hspace {0.2em}}{17}{lstnumber.8.24.14}%
+\contentsline {subsection}{\texttt {HullTangents.h}\hspace {0.2em}}{17}{lstnumber.8.21.13}%
+\contentsline {subsection}{\texttt {ConvexHull.h}\hspace {0.2em}}{17}{lstnumber.8.22.16}%
+\contentsline {subsection}{\texttt {HullDiameter.h}\hspace {0.2em}}{17}{lstnumber.8.23.13}%
+\contentsline {subsection}{\texttt {PointInsideHull.h}\hspace {0.2em}}{17}{lstnumber.8.24.12}%
+\contentsline {subsection}{\texttt {LineHullIntersection.h}\hspace {0.2em}}{17}{lstnumber.8.25.14}%
 \contentsline {section}{\numberline {8.4}Misc. Point Set Problems}{17}{section.8.4}%
 \contentsline {subsection}{\texttt {ClosestPair.h}\hspace {0.2em}}{17}{section.8.4}%
-\contentsline {subsection}{\texttt {kdTree.h}\hspace {0.2em}}{17}{lstnumber.8.26.17}%
-\contentsline {subsection}{\texttt {FastDelaunay.h}\hspace {0.2em}}{18}{lstnumber.8.27.63}%
-\contentsline {subsection}{\texttt {Halfplane.h}\hspace {0.2em}}{18}{lstnumber.8.28.88}%
-\contentsline {subsection}{\texttt {PlanarFace.h}\hspace {0.2em}}{19}{lstnumber.8.29.71}%
+\contentsline {subsection}{\texttt {kdTree.h}\hspace {0.2em}}{18}{lstnumber.8.27.17}%
+\contentsline {subsection}{\texttt {FastDelaunay.h}\hspace {0.2em}}{18}{lstnumber.8.28.63}%
+\contentsline {subsection}{\texttt {Halfplane.h}\hspace {0.2em}}{18}{lstnumber.8.29.88}%
+\contentsline {subsection}{\texttt {PlanarFace.h}\hspace {0.2em}}{19}{lstnumber.8.30.71}%
 \contentsline {section}{\numberline {8.5}3D}{19}{section.8.5}%
 \contentsline {subsection}{\texttt {PolyhedronVolume.h}\hspace {0.2em}}{19}{section.8.5}%
-\contentsline {subsection}{\texttt {Point3D.h}\hspace {0.2em}}{19}{lstnumber.8.31.6}%
-\contentsline {subsection}{\texttt {3dHull.h}\hspace {0.2em}}{19}{lstnumber.8.32.32}%
-\contentsline {subsection}{\texttt {sphericalDistance.h}\hspace {0.2em}}{19}{lstnumber.8.33.49}%
+\contentsline {subsection}{\texttt {Point3D.h}\hspace {0.2em}}{19}{lstnumber.8.32.6}%
+\contentsline {subsection}{\texttt {3dHull.h}\hspace {0.2em}}{19}{lstnumber.8.33.32}%
+\contentsline {subsection}{\texttt {sphericalDistance.h}\hspace {0.2em}}{20}{lstnumber.8.34.49}%
 \contentsline {chapter}{\numberline {9}Strings}{20}{chapter.9}%
 \ttl@stoptoc {chapters@8}
 \ttl@starttoc {chapters@9}
@@ -193,7 +194,7 @@
 \contentsline {section}{\texttt {MinRotation.h}\hspace {0.2em}}{20}{lstnumber.9.3.13}%
 \contentsline {section}{\texttt {SuffixArray.h}\hspace {0.2em}}{20}{lstnumber.9.4.8}%
 \contentsline {section}{\texttt {SuffixTree.h}\hspace {0.2em}}{20}{lstnumber.9.5.23}%
-\contentsline {section}{\texttt {Hashing.h}\hspace {0.2em}}{20}{lstnumber.9.6.50}%
+\contentsline {section}{\texttt {Hashing.h}\hspace {0.2em}}{21}{lstnumber.9.6.50}%
 \contentsline {section}{\texttt {AhoCorasick.h}\hspace {0.2em}}{21}{lstnumber.9.7.44}%
 \contentsline {section}{\texttt {Eertree.h}\hspace {0.2em}}{21}{lstnumber.9.8.66}%
 \contentsline {chapter}{\numberline {10}Various}{21}{chapter.10}%
@@ -202,7 +203,7 @@
 \contentsline {section}{\numberline {10.1}Intervals}{21}{section.10.1}%
 \contentsline {subsection}{\texttt {IntervalContainer.h}\hspace {0.2em}}{21}{section.10.1}%
 \contentsline {subsection}{\texttt {IntervalCover.h}\hspace {0.2em}}{21}{lstnumber.10.1.23}%
-\contentsline {subsection}{\texttt {ConstantIntervals.h}\hspace {0.2em}}{21}{lstnumber.10.2.19}%
+\contentsline {subsection}{\texttt {ConstantIntervals.h}\hspace {0.2em}}{22}{lstnumber.10.2.19}%
 \contentsline {section}{\numberline {10.2}Misc. algorithms}{22}{section.10.2}%
 \contentsline {subsection}{\texttt {TernarySearch.h}\hspace {0.2em}}{22}{section.10.2}%
 \contentsline {subsection}{\texttt {LIS.h}\hspace {0.2em}}{22}{lstnumber.10.4.11}%
@@ -216,7 +217,7 @@
 \contentsline {subsection}{\numberline {10.5.2}Pragmas}{22}{subsection.10.5.2}%
 \contentsline {subsection}{\texttt {FastMod.h}\hspace {0.2em}}{22}{subsection.10.5.2}%
 \contentsline {subsection}{\texttt {FastInput.h}\hspace {0.2em}}{22}{lstnumber.10.9.8}%
-\contentsline {subsection}{\texttt {BumpAllocator.h}\hspace {0.2em}}{22}{lstnumber.10.10.17}%
+\contentsline {subsection}{\texttt {BumpAllocator.h}\hspace {0.2em}}{23}{lstnumber.10.10.17}%
 \contentsline {subsection}{\texttt {SmallPtr.h}\hspace {0.2em}}{23}{lstnumber.10.11.8}%
 \contentsline {subsection}{\texttt {BumpAllocatorSTL.h}\hspace {0.2em}}{23}{lstnumber.10.12.10}%
 \contentsline {subsection}{\texttt {SIMD.h}\hspace {0.2em}}{23}{lstnumber.10.13.14}%
