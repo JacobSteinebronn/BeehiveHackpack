@@ -12,9 +12,13 @@
 \contentsline {section}{\numberline {2.6}Sums}{1}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Series}{2}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Probability theory}{2}{section.2.8}%
+\contentsline {subsubsection}{Uniform distribution}{2}{section*.1}%
+\contentsline {subsubsection}{Exponential distribution}{2}{section*.2}%
+\contentsline {subsubsection}{Normal distribution}{2}{section*.3}%
+\contentsline {subsubsection}{Irwin-Hall distribution}{2}{section*.4}%
 \contentsline {chapter}{\numberline {3}Data structures}{2}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Numerical}{3}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Polynomials and recurrences}{3}{section.4.1}%
+\contentsline {chapter}{\numberline {4}Numerical}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Polynomials and recurrences}{4}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Optimization}{4}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Matrices}{5}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Fourier transforms}{5}{section.4.4}%
@@ -38,9 +42,9 @@
 \contentsline {subsection}{\numberline {6.2.1}Partition function}{8}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Lucas' Theorem}{8}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}Binomials}{8}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}General purpose numbers}{8}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Bernoulli numbers}{8}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Stirling numbers of the first kind}{8}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.3}General purpose numbers}{9}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Bernoulli numbers}{9}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Stirling numbers of the first kind}{9}{subsection.6.3.2}%
 \contentsline {subsection}{\numberline {6.3.3}Eulerian numbers}{9}{subsection.6.3.3}%
 \contentsline {subsection}{\numberline {6.3.4}Stirling numbers of the second kind}{9}{subsection.6.3.4}%
 \contentsline {subsection}{\numberline {6.3.5}Bell numbers}{9}{subsection.6.3.5}%
@@ -49,8 +53,8 @@
 \contentsline {chapter}{\numberline {7}Graph}{9}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Fundamentals}{9}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Network flow}{9}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Matching}{10}{section.7.3}%
-\contentsline {section}{\numberline {7.4}DFS algorithms}{11}{section.7.4}%
+\contentsline {section}{\numberline {7.3}Matching}{11}{section.7.3}%
+\contentsline {section}{\numberline {7.4}DFS algorithms}{12}{section.7.4}%
 \contentsline {section}{\numberline {7.5}Coloring}{13}{section.7.5}%
 \contentsline {section}{\numberline {7.6}Heuristics}{13}{section.7.6}%
 \contentsline {section}{\numberline {7.7}Trees}{13}{section.7.7}%

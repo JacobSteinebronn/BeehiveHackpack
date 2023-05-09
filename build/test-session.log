@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.19)  31 JAN 2023 11:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2023.2.26)  9 MAY 2023 09:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -149,7 +149,7 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \colbreak@box=\box94
 \mc@col@check@num=\count274
 ) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip52
 \f@nch@O@elh=\skip53
 \f@nch@O@erh=\skip54
@@ -452,8 +452,7 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count303
 \l__pdf_internal_box=\box101
-)
-No file test-session.aux.
+) (build//test-session.aux)
 \openout1 = `test-session.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -475,6 +474,7 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 \c@lstlisting=\count304
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -541,6 +541,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
+ (build//test-session.out) (build//test-session.out)
 \@outlinefile=\write3
 \openout3 = `test-session.out'.
 
@@ -580,20 +581,14 @@ runsystem(rm -f build/header2.tmp)...executed.
 runsystem(rm -f build/kactl.tmp)...executed.
 
  (build//test-session.aux)
-
-Package rerunfilecheck Warning: File `test-session.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `test-session.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `test-session.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13288 strings out of 480806
- 193675 string characters out of 5905150
- 698400 words of memory out of 6000000
- 30456 multiletter control sequences out of 15000+600000
+ 13307 strings out of 480806
+ 193998 string characters out of 5905151
+ 698520 words of memory out of 6000000
+ 30469 multiletter control sequences out of 15000+600000
  407898 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,11n,77p,583b,540s stack positions out of 5000i,500n,10000p,200000b,80000s

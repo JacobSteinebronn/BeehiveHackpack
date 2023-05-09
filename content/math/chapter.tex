@@ -58,8 +58,7 @@ With side lengths $a,b,c,d$, diagonals $e, f$, diagonals angle $\theta$, area $A
 magic flux $F=b^2+d^2-a^2-c^2$:
 
 \[ 4A = 2ef \cdot \sin\theta = F\tan\theta = \sqrt{4e^2f^2-F^2} \]
-
- For cyclic quadrilaterals the sum of opposite angles is $180^\circ$,
+For cyclic quadrilaterals the sum of opposite angles is $180^\circ$,
 $ef = ac + bd$, and $A = \sqrt{(p-a)(p-b)(p-c)(p-d)}$.
 
 \subsection{Pick's Theorem}
@@ -131,29 +130,34 @@ For independent $X$ and $Y$, \[V(aX+bY) = a^2V(X)+b^2V(Y).\]
 
 % \subsection{Continuous distributions}
 
-% \subsubsection{Uniform distribution}
-% If the probability density function is constant between $a$ and $b$ and 0 elsewhere it is $\textrm{U}(a,b),\,a<b$.
-% \[f(x) = \left\{
-% \begin{array}{cl}
-% \frac{1}{b-a} & a<x<b\\
-% 0 & \textrm{otherwise}
-% \end{array}\right.\]
-% \[\mu=\frac{a+b}{2},\,\sigma^2=\frac{(b-a)^2}{12}\]
+\subsubsection{Uniform distribution}
+If the probability density function is constant between $a$ and $b$ and 0 elsewhere it is $\textrm{U}(a,b),\,a<b$.
+\[f(x) = \left\{
+\begin{array}{cl}
+\frac{1}{b-a} & a<x<b\\
+0 & \textrm{otherwise}
+\end{array}\right.\]
+\[\mu=\frac{a+b}{2},\,\sigma^2=\frac{(b-a)^2}{12}\]
 
-% \subsubsection{Exponential distribution}
-% The time between events in a Poisson process is $\textrm{Exp}(\lambda),\,\lambda>0$.
-% \[f(x) = \left\{
-% \begin{array}{cl}
-% \lambda e^{-\lambda x} & x\geq0\\
-% 0 & x<0
-% \end{array}\right.\]
-% \[\mu=\frac{1}{\lambda},\,\sigma^2=\frac{1}{\lambda^2}\]
+\subsubsection{Exponential distribution}
+The time between events in a Poisson process is $\textrm{Exp}(\lambda),\,\lambda>0$.
+\[f(x) = \left\{
+\begin{array}{cl}
+\lambda e^{-\lambda x} & x\geq0\\
+0 & x<0
+\end{array}\right.\]
+\[\mu=\frac{1}{\lambda},\,\sigma^2=\frac{1}{\lambda^2}\]
 
-% \subsubsection{Normal distribution}
-% Most real random values with mean $\mu$ and variance $\sigma^2$ are well described by $\mathcal{N}(\mu,\sigma^2),\,\sigma>0$.
-% \[ f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \]
-% If $X_1 \sim \mathcal{N}(\mu_1,\sigma_1^2)$ and $X_2 \sim \mathcal{N}(\mu_2,\sigma_2^2)$ then
-% \[ aX_1 + bX_2 + c \sim \mathcal{N}(\mu_1+\mu_2+c,a^2\sigma_1^2+b^2\sigma_2^2) \]
+\subsubsection{Normal distribution}
+Most real random values with mean $\mu$ and variance $\sigma^2$ are well described by $\mathcal{N}(\mu,\sigma^2),\,\sigma>0$.
+\[ f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \]
+If $X_1 \sim \mathcal{N}(\mu_1,\sigma_1^2)$ and $X_2 \sim \mathcal{N}(\mu_2,\sigma_2^2)$ then
+\[ aX_1 + bX_2 + c \sim \mathcal{N}(\mu_1+\mu_2+c,a^2\sigma_1^2+b^2\sigma_2^2) \]
+
+\subsubsection{Irwin-Hall distribution}
+PDF: $\frac{1}{(n-1)!}\sum_{k=0}^{\lfloor x\rfloor}(-1)^k {n\choose k}(x-k)^{n-1}$ \\
+CDF: $\frac{1}{n!}\sum_{k=0}^{\lfloor x\rfloor}(-1)^k{n\choose k}(x-k)^n$
+
 
 % \section{Markov chains}
 % A \emph{Markov chain} is a discrete random process with the property that the next state depends only on the current state.

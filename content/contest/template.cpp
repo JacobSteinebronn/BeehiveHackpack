@@ -8,6 +8,10 @@ typedef long long ll;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
 
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+#pragma GCC optimization("Ofast")
+
 int main() {
 	cin.tie(0)->sync_with_stdio(0);
 	cin.exceptions(cin.failbit);
