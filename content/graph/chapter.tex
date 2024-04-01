@@ -27,7 +27,7 @@
 	\kactlimport{2sat.h}
 	\kactlimport{EulerWalk.h}
 	\kactlimport{DominatorTree.h}
-	\kactlimport{CentroidDecomp.h}
+	\kactlimport{CentroidDecompCCC.h}
 	\kactlimport{MatroidIntersection.h}
 
 \section{Coloring}
@@ -40,7 +40,7 @@
 
 \section{Trees}
 	% \kactlimport{BinaryLifting.h}
-	% \kactlimport{LCA.h}
+	\kactlimport{LCA.h}
 	\kactlimport{CompressTree.h}
 	\kactlimport{HLD.h}
 	\kactlimport{LinkCutTree.h}
@@ -55,8 +55,7 @@ Create an $N\times N$ matrix \texttt{mat}, and for each edge $a \rightarrow b \i
 \texttt{mat[a][b]--, mat[b][b]++} (and \texttt{mat[b][a]--, mat[a][a]++} if $G$ is undirected).
 Remove the $i$th row and column and take the determinant; this yields the number of directed spanning trees rooted at $i$
 (if $G$ is undirected, remove any row/column).
-\newline
-
+\linebreak
 \subsection{Erdős–Gallai theorem}
 % Source: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Gallai_theorem
 % Test: stress-tests/graph/erdos-gallai.cpp
